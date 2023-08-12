@@ -11,7 +11,7 @@ Job:
       uses: actions/checkout@v2
       with:
           repository: tvthang/Practice01
-          ref: master
+          ref: main
           path: ./Practice01
     - name: step two
       run: env | sort
