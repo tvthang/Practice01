@@ -8,7 +8,11 @@ Job:
     run-on: ubuntu-latest
     steps:
     - name: step one
-      uses: actions/checkout@v2 
+      uses: actions/checkout@v2
+      with:
+          repository: tvthang/Practice01
+          ref: master
+          path: ./Practice01
     - name: step two
       run: env | sort
   Job2: 
